@@ -7,9 +7,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-s", "--subdirectory", metavar="DIR", help="Output directory name. By default = 'BBs'.", default="BBs", action="store", type=str, required=False, dest="subdir")
 parser.add_argument("-ts", "--temporarySubdir", help="temporary subdirectory. By default = 'BBs_temp'.", default="BBs_temp", action="store", type=str, required=False, dest="tempSubdir")
 parser.add_argument("-g", "--genome", help="specify version of the genome for which chromosome sizes file will be downloaded from UCSC (unles '-d False' would be specified). By default = 'hg38'.", default="hg38", action="store", type=str, required=False, dest="genome")
-parser.add_argument("-d", "--UCSC_binariesDownload", help="Specify if program will (set to True) or will not (set to False) download binary bedToBigBed and fetchChromSizes files from UCSC. By default = 'True'.", default=True, action="store", type=str, required=False, dest="down")
+parser.add_argument("-d", "--UCSC_binariesDownload", help="Specify if program download binary bedToBigBed and fetchChromSizes files from UCSC (set to True) or not (set to False). By default = 'True'.", default=True, action="store", type=str, required=False, dest="down")
 parser.add_argument("-os", "--operationSystem", help="Specify either 1 for MAC OS X (macOSX.x86_64), or 2 for linux (linux.x86_64). By default = '1'.", default=1, action="store", type=int, required=False, dest="system")
-parser.add_argument("-c", "--chromosomeSizesFile", help="Flag to use if one want to specify chromosome sizes file. By default = 'fetchUCSC', which corresponds with downloading of GENOME.chrom.sizes file from UCSC.", default="fetchUCSC", action="store", type=str, required=False, dest="chrSizes")
+parser.add_argument("-c", "--chromosomeSizesFile", help="Flag to use if one want to specify chromosome sizes file. By default = 'fetchUCSC', which corresponds to download of the GENOME.chrom.sizes file from UCSC.", default="fetchUCSC", action="store", type=str, required=False, dest="chrSizes")
 args = parser.parse_args()
 
 subdirectory = args.subdir
