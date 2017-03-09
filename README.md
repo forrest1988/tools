@@ -13,7 +13,7 @@ For the default parameters run the following command:
 <code>python BED2BB_Converter_1.00.py</code>
 
 
-<b>usage</b>: BED2BB_Converter_1.00.py [-h] [-s DIR] [-ts TEMPSUBDIR] [-g GENOME] [-d DOWN] [-os SYSTEM] [-c CHRSIZES]
+<b>usage</b>: <font style="font-family: monospace;">BED2BB_Converter_1.00.py [-h] [-s DIR] [-ts TEMPSUBDIR] [-g GENOME] [-d DOWN] [-os SYSTEM] [-c CHRSIZES]
 
 optional arguments:
 
@@ -30,7 +30,7 @@ optional arguments:
 -os SYSTEM, --operationSystem SYSTEM -> Specify either 1 for MAC OS X (macOSX.x86_64), or 2 for linux (linux.x86_64). By default = '1'.
   
 -c CHRSIZES, --chromosomeSizesFile CHRSIZES -> Flag to use if one want to specify chromosome sizes file. By default = 'fetchUCSC', which corresponds to download of the GENOME.chrom.sizes file from UCSC.
-  
+</font>
 
 ======================= =========================
 
