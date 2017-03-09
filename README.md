@@ -10,7 +10,7 @@ Script is written in Python (2.7) and is using bedtools (http://bedtools.readthe
 Just download the script and copy it to the catalog in which you have stored all *.bed files, that you wish to convert to bigBed format. 
 For the default parameters run the following command:
 
-<code>python BED2BB_Converter_1.00.py
+<code>python BED2BB_Converter_1.00.py</code>
 
 
 <b>usage</b>: BED2BB_Converter_1.00.py [-h] [-s DIR] [-ts TEMPSUBDIR] [-g GENOME] [-d DOWN] [-os SYSTEM] [-c CHRSIZES]
@@ -31,6 +31,6 @@ optional arguments:
   
   -c CHRSIZES, --chromosomeSizesFile CHRSIZES -> Flag to use if one want to specify chromosome sizes file. By default = 'fetchUCSC', which corresponds to download of the GENOME.chrom.sizes file from UCSC.
   
-</code>
+
 ================================================
 
