@@ -1,20 +1,18 @@
-<b>============== BED2BB Converter ==============</b>
+============== BED2BB Converter ==============
 
-What is this script for?
-
+<h5>What is this script for?</h5>
 The purpose of BED2BB_Converter is to convert all BED files (i.e. *.bed) from current directory, to bigBed files (i.e. *.bb) that will be stored in a subfolder.
 
-Dependencies:
+<h5>Dependencies:</h5>
 Script is written in Python (2.7) and is using bedtools (http://bedtools.readthedocs.io/en/latest/) and internet connection to download binaries from UCSC (http://hgdownload.cse.ucsc.edu/admin/exe/). The latter may be skipped if "-d" flag is used with "False" variable and if the file with chromosome sizes is provided using "-c" flag.
 
-Installation and usage:
+<h5>Installation and usage:</h5>
 Just download the script and copy it to the catalog in which you have stored all *.bed files, that you wish to convert to bigBed format. 
 For the default parameters run the following command:
+<code>python BED2BB_Converter_1.00.py
 
-python BED2BB_Converter_1.00.py
 
-
-usage: BED2BB_Converter_1.00.py [-h] [-s DIR] [-ts TEMPSUBDIR] [-g GENOME]
+<b>usage</b>: BED2BB_Converter_1.00.py [-h] [-s DIR] [-ts TEMPSUBDIR] [-g GENOME]
                                 [-d DOWN] [-os SYSTEM] [-c CHRSIZES]
 
 optional arguments:
@@ -38,6 +36,6 @@ optional arguments:
                         Flag to use if one want to specify chromosome sizes
                         file. By default = 'fetchUCSC', which corresponds to
                         download of the GENOME.chrom.sizes file from UCSC.
-
+</code>
 ================================================
 
