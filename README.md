@@ -32,5 +32,5 @@ optional arguments:
 -c CHRSIZES, --chromosomeSizesFile CHRSIZES -> Flag to use if one want to specify chromosome sizes file. By default = 'fetchUCSC', which corresponds to download of the GENOME.chrom.sizes file from UCSC.
   
 
-================================================
+======================= =========================
 
