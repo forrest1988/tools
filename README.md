@@ -1,4 +1,4 @@
-============== BED2BB Converter ==============
+<b>============== BED2BB Converter ==============</b>
 
 What is this script for?
 
