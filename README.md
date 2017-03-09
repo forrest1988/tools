@@ -9,6 +9,7 @@ Script is written in Python (2.7) and is using bedtools (http://bedtools.readthe
 <h5>Installation and usage:</h5>
 Just download the script and copy it to the catalog in which you have stored all *.bed files, that you wish to convert to bigBed format. 
 For the default parameters run the following command:
+
 <code>python BED2BB_Converter_1.00.py
 
 
@@ -17,8 +18,11 @@ For the default parameters run the following command:
 
 optional arguments:
   -h, --help            show this help message and exit
+  
   -s DIR, --subdirectory DIR
+  
                         Output directory name. By default = 'BBs'.
+                        
   -ts TEMPSUBDIR, --temporarySubdir TEMPSUBDIR
                         temporary subdirectory. By default = 'BBs_temp'.
   -g GENOME, --genome GENOME
