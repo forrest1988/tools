@@ -21,7 +21,7 @@ print subprocess.Popen("mkdir {}".format(subdirectory), shell=True, stdout=subpr
 print subprocess.Popen("mkdir {}".format(temporarySubdir), shell=True, stdout=subprocess.PIPE).stdout.read()
 print subprocess.Popen("ls -1 *.bed > {}/listOfFiles.txt".format(temporarySubdir), shell=True, stdout=subprocess.PIPE).stdout.read()
 
-if (args.down == "True"):
+if (args.down == True):
 	if (args.system == 1):
 		tmp = 'macOSX.x86_64'
 	elif (args.system == 2):
